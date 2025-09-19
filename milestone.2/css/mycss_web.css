@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: linear-gradient(to right, #eef2f3, #8e9eab); 
+}
+
+header, footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+
+#main-title {
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+
+
+.profile-pic {
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #444;
+}
+
+.education p,
+.experience ul,
+.languages ul,
+.interests p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+
+ul li {
+  margin: 6px 0;
+}
+
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+table, th, td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  padding: 8px;
+}
+form {
+  margin-top: 20px;
+}
