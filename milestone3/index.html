@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sebastian Villavicencio – Bootstrap Profile</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  >
+  <link rel="stylesheet" href="css/mycss_web.css" media="screen and (min-width:769px), print">
+  <link rel="stylesheet" href="css/mycss_tablet.css" media="screen and (max-width:768px)">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <a class="navbar-brand" href="#">Sebas Profile</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="text-center mb-4">
+    <h1 id="main-title">Sebastian Villavicencio</h1>
+    <img src="images/selfie.jpg" alt="Profile picture of Sebastian Villavicencio"
+         class="profile-pic img-fluid mt-3">
+  </header>
+
+  <main class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <div class="card mb-4 shadow">
+          <div class="card-body">
+            <h2 class="card-title">Major: <span class="text-warning">Computer Science</span></h2>
+            <p class="text-success">Graduating Year: Spring 2026</p>
+            <h3>Education Summary</h3>
+            <p>I attended St. Francis Prep in Fresh Meadows, graduating in 2022. I’m now pursuing a
+               B.S. in Computer Science at St. John’s University.</p>
+          </div>
+        </div>
+
+        <h3>Work Experience</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item">Tramas Auto School</li>
+          <li class="list-group-item">Inventory Management System</li>
+          <li class="list-group-item">Personal Website</li>
+        </ul>
+
+        <h3>Languages</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item">CSS</li>
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">Java</li>
+        </ul>
+        <p>I worked on the open-source “Odin Project,” which taught me HTML and CSS, and
+           learned Java in my first two years of college.</p>
+
+        <h3>Interests & Hobbies</h3>
+        <p>I enjoy video games, football (and fun parlays), and anime.</p>
+
+        <section id="favorites" class="mt-5">
+          <h2>Favorites</h2>
+          <div class="embed-responsive embed-responsive-16by9 mb-3">
+            <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/wngEflc52Qo"
+                    allowfullscreen></iframe>
+          </div>
+          <p><strong>Favorite Song:</strong> Panties y Brasieles by Rauw Alejandro</p>
+          <p><strong>Favorite Movie:</strong> The Waterboy –
+             <a href="https://www.justwatch.com/us/movie/the-waterboy" target="_blank">Watch here</a></p>
+          <p><strong>Favorite TV Show:</strong> One Piece –
+             <a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece" target="_blank">Watch here</a></p>
+        </section>
+
+        <section id="favorite-websites" class="mt-5">
+          <h2>Favorite Websites</h2>
+          <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+              <tr><th>Site</th><th>Link</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>TikTok</td><td><a href="https://www.tiktok.com" target="_blank">Visit</a></td></tr>
+              <tr><td>YouTube</td><td><a href="https://www.youtube.com" target="_blank">Visit</a></td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="projects" class="mt-5">
+          <h2>My Projects</h2>
+          <p>This is my first project—a personal profile page.</p>
+          <a class="btn btn-primary" href="index.html" target="_blank">View Original Page</a>
+        </section>
+
+        <section id="contact" class="mt-5">
+          <h2>Contact Me</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Send</button>
+          </form>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center bg-dark text-white py-3 mt-5">
+    &copy; 2025 Sebastian Villavicencio
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
